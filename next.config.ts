@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 module.exports = {
+    reactStrictMode: true,
   images: {
     domains: ['ivsuscmeelotkcibziya.supabase.co'], // أضف اسم نطاق التخزين الخاص بـ Supabase هنا
   },
